@@ -1,205 +1,40 @@
-
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <script src="https://fastly.jsdelivr.net/npm/@tabler/core@latest/dist/js/tabler.min.js"></script>
-    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@tabler/core@latest/dist/css/tabler.min.css">
-    <link href="https://fastly.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet"/>
-    <script src="https://fastly.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
-    <link href="https://fastly.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
-    <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="/static/assets/js/htmx.min.js"></script>
-</head>
-<title>账号分享</title>
-
-<div class="container">
-            <div align=center class="alert alert-success" role="alert"><b>公益AppleID shadowrocket下载</b></div>
-<div align=center class="alert alert-success" role="alert"><b>如果您没有节点，可以试试我们提供的服务，注册后免费24小时</b></div>
-
-<div align=center class="alert alert-success"  onclick="window.open('https://user.netv2.cc/')" role="alert"><b>点我进入官网注册试用</b></div>
-
-<div align=center class="alert alert-success" role="alert"><b>如何切换AppleID登录,注意shadowrocket只支持ios系统或者M芯片的mac系统</b></div>
-<div align=center class="alert alert-success" role="alert"><b>第一次操作看图片,别直接登录iCloud，注意，下载软件不是登录设置
- <img src="https://article.biliimg.com/bfs/article/72c6f0ca2081ec29469aaea1523cb934f33ffca3.png@1e_1c.webp" referrerpolicy="no-referrer" > 的iCloud，是登陆 APP Store  <img src="https://article.biliimg.com/bfs/article/afbcb1d6b7f14008660be7fec6128e09401d9b9a.png@1e_1c.webp" referrerpolicy="no-referrer" ></b></li></b></div>
-
-<div align=center>
-  <img src="https://i0.hdslb.com/bfs/article/c1cabd1fd9241250998e22a458f87927404601066.gif" width = 200 referrerpolicy="no-referrer" >
-  <img src="https://img30.360buyimg.com/myjd/jfs/t20270920/91783/18/50934/283227/66ecde3cF12461aab/cfa883829eb6e474.png" width = 500 referrerpolicy="no-referrer" >
-</div>
-
-<div align=center class="alert alert-success" role="alert"><b><li><b>1.  开始，首先打开APPstore  <img src="https://article.biliimg.com/bfs/article/afbcb1d6b7f14008660be7fec6128e09401d9b9a.png@1e_1c.webp" referrerpolicy="no-referrer" ></b></li></b></div>
-
-<div align=center class="alert alert-success" role="alert"><b><li><b>2. 点击右上角头像，下拉到最底部，登出自己的账号</b></li></b></div>
-
-<div align=center class="alert alert-success" role="alert"><b><li><b>3. 然后复制本站提供的账号、密码，到自己设备的App Store<img src="https://article.biliimg.com/bfs/article/afbcb1d6b7f14008660be7fec6128e09401d9b9a.png@1e_1c.webp" referrerpolicy="no-referrer" >登录</b></li></b></div>
-
-<div align=center class="alert alert-success" role="alert"><b><li><b>4. 登录时会弹出的Apple id安全界面，选择"其他选顶"--"不升级"，切勿开启双重认证</b></li></b></div>
-
-
-
-
-
-<div align=center>
-    <img src="https://article.biliimg.com/bfs/article/182632b34da0536087ad612c3fbd8d3a9da766d3.png" width = 200 referrerpolicy="no-referrer" >
-
-</div>
-
-
-<div align=center class="alert alert-success" role="alert"><b><li><b>5. 如果你点了升级，就会绑定自己的手机号，一定要点"不升级"</b></li></b></div>
-
-<div align=center class="alert alert-danger" role="alert"><b><li><b>6. 注意：AppStore无法跨ID更新软件（意思是App更新必须用当初下载的ID进行更新），请删除重新下</b></li></b></div>
-
-
-        <div class="row row-deck">
-                        <div class="col-xs-3 col-md-3">
-                    <div class="card shadow-lg" style="margin-top: 1rem;">
-                        <div class="card-status-start bg-green"></div>
-                        <div class="card-body">
-                            <h3 class="card-title">账号信息</h3>
-                            <h3 class="card-text">tmpristopher1@113812.xyz                                    <span class="badge bg-indigo text-indigo-fg">美国</span>
-                                                            </h3>
-                                                        <p class="card-subtitle mb-2 text-muted" style="line-height: 25px">
-                                上次检查: 2024-12-14 15:35:33</p>
-                            <p class="card-subtitle mb-2 text-muted"
-                               style="line-height: 25px">状态:
-                                                                    <span class="badge bg-green text-green-fg">正常</span>
-                                                            </p>
-                            <button id="username_9" class="btn btn-primary"
-                                    data-clipboard-text="tmpristopher1@113812.xyz"
-                                    onclick="alert_success()">复制账号                            </button>
-                            <button id="password_9" class="btn btn-success"
-                                    data-clipboard-text="JcsuWK9AMv"
-                                    onclick="alert_success()">复制密码                            </button>
-                        </div>
-                    </div>
-                </div>
-                            <div class="col-xs-3 col-md-3">
-                    <div class="card shadow-lg" style="margin-top: 1rem;">
-                        <div class="card-status-start bg-green"></div>
-                        <div class="card-body">
-                            <h3 class="card-title">账号信息</h3>
-                            <h3 class="card-text">tmpstevanirtheosco70@113812.xyz                                    <span class="badge bg-indigo text-indigo-fg">日本</span>
-                                                            </h3>
-                                                        <p class="card-subtitle mb-2 text-muted" style="line-height: 25px">
-                                上次检查: 2024-12-14 15:37:58</p>
-                            <p class="card-subtitle mb-2 text-muted"
-                               style="line-height: 25px">状态:
-                                                                    <span class="badge bg-green text-green-fg">正常</span>
-                                                            </p>
-                            <button id="username_10" class="btn btn-primary"
-                                    data-clipboard-text="tmpstevanirtheosco70@113812.xyz"
-                                    onclick="alert_success()">复制账号                            </button>
-                            <button id="password_10" class="btn btn-success"
-                                    data-clipboard-text="EdZ9WRuKBB"
-                                    onclick="alert_success()">复制密码                            </button>
-                        </div>
-                    </div>
-                </div>
-                            <div class="col-xs-3 col-md-3">
-                    <div class="card shadow-lg" style="margin-top: 1rem;">
-                        <div class="card-status-start bg-green"></div>
-                        <div class="card-body">
-                            <h3 class="card-title">账号信息</h3>
-                            <h3 class="card-text">tmpevonoelpin@113812.xyz                                    <span class="badge bg-indigo text-indigo-fg">美国</span>
-                                                            </h3>
-                                                        <p class="card-subtitle mb-2 text-muted" style="line-height: 25px">
-                                上次检查: 2024-12-14 15:45:17</p>
-                            <p class="card-subtitle mb-2 text-muted"
-                               style="line-height: 25px">状态:
-                                                                    <span class="badge bg-green text-green-fg">正常</span>
-                                                            </p>
-                            <button id="username_7" class="btn btn-primary"
-                                    data-clipboard-text="tmpevonoelpin@113812.xyz"
-                                    onclick="alert_success()">复制账号                            </button>
-                            <button id="password_7" class="btn btn-success"
-                                    data-clipboard-text="616scSkeMK"
-                                    onclick="alert_success()">复制密码                            </button>
-                        </div>
-                    </div>
-                </div>
-                        </div>
-    <br>
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>梯子在线</title>
+        <meta name="keywords" content="梯子在线">
+        <meta name="description" content="梯子在线">
+        <link rel="stylesheet" href="static/dg6xyz.css" type="text/css" media="all"/>
+        </head>
+   <body>
+       <div class="release"><div class="release-body">
+           <div class="image"><img src="static/picture/202212052129315344.png" alt="大白"></div>
+           <div class="title"><h2>地址发布页</h2>
+           <p>请 Ctrl+D 收藏本页到浏览器收藏夹回家不迷路<br>
+           <br>
+   <b>- 点击下方按钮进入网站 -</b></p></div>
+   <div class="release-main">
+       <div class="links">
+           <ul>
+    <li><a href="https://venvn.github.io" target="_blank">网站</a></li>
+    <li><a href="" target="_blank">安卓教程</a></li>
+    <li><a href="" target="_blank">苹果教程</a></li>
+    <li><a href="" target="_blank">win教程</a></li>
+    <li><a href="#" target="_blank">mac教程</a></li>
+    <li><a href="#" target="_blank">待添加..</a></li>
+    </ul>
     </div>
-
-    <footer class="footer footer-transparent d-print-none">
-        <div class="container-xl">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-6 text-md-right text-center">
-                    <p class="copyright">2024 &copy;  |
-                        Powered by <a href="https://appleauto.pro/" target="_blank"
-                                      style="text-decoration: none;">AppleAutoPro</a>
-                    </p>
-                </div>
-            </div>
+    <div class="tips"><p><font color="red">收藏本站永久地址：<font color="blue"><a href="">venvn.github.io</a>
+    </font>，防止失联！</font></p>
+    <p>
+        <b>网站域名经常更新，防止网站打不开</b><br>
+        <b>请务必收藏此网页，永久有效！</b></p></div></div></div>
+        <footer><h2>请把本站添加到书签</h2>
+        <p class="footer">© 2025 . All Rights Reserved</p>
+        </footer>
         </div>
-    </footer>
-
-<script>
-    htmx.on("htmx:afterRequest", function (evt) {
-        let res = JSON.parse(evt.detail.xhr.response);
-        const timeout = 1000;
-
-        if (res.ret === 1) {
-            Swal.fire({
-                heightAuto: false,
-                icon: 'success',
-                title: '成功',
-                text: res.msg,
-                showConfirmButton: true,
-                timer: 2000,
-                timerProgressBar: true,
-                allowOutsideClick: false,
-            });
-        } else {
-            Swal.fire({
-                heightAuto: false,
-                icon: 'error',
-                title: '错误',
-                text: res.msg
-            });
-        }
-
-        if (evt.detail.xhr.getResponseHeader('HX-Redirect')) {
-            return;
-        }
-        if (evt.detail.xhr.getResponseHeader('HX-Refresh')) {
-            setTimeout(function () {
-                location.reload();
-            }, timeout);
-        }
-    });
-</script>
-
-<script>
-    document.addEventListener('htmx:beforeRequest', (event) => {
-        if (event.detail.elt.classList.contains('manual-unblock')) {
-            Swal.fire({
-                title: '处理中...',
-                allowOutsideClick: false,
-                showConfirmButton: false,
-                onBeforeOpen: () => {
-                    Swal.showLoading();
-                }
-            });
-        }
-    });
-
-    var clipboard = new ClipboardJS('.btn');
-
-    function alert_success() {
-        Swal.fire({
-            title: '复制成功',
-            width: 300,
-            timer: 1000,
-            showConfirmButton: false,
-            timerProgressBar: true
-        });
-    }
-</script>
-
+        </body>
+        </html>
 <script src="//code.tidio.co/mpvh8vnwbbxyhcivcyiv3vn8iyapqtcg.js" async></script>
